@@ -3,6 +3,8 @@
 
 A simple Flutter application that fetches and displays weather data based on the user's current location using the WeatherAPI.com API.
 
+**Note:** All development should be done on the `development` branch.
+
 ## Features
 
 - Fetches weather data using the user's current location.
@@ -26,8 +28,8 @@ cd weatherapp
 ```
 
 ### 2. Add Your API Key
-- Create a file named .env in the root of the project directory.
-- Add your Weather API key to the .env file:
+- Create a file named `.env` in the root of the project directory.
+- Add your Weather API key to the `.env` file:
 ```bash
 WEATHER_API_KEY = your_api_key_here
 ```
@@ -49,8 +51,8 @@ flutter run
 - Once granted, it will fetch and display the current weather data on the screen.
 
 ### Note
-- Make sure to check the .gitignore file to ensure your .env file is not tracked by version control.
-- You can customize the UI further by modifying the weather_screen.dart file.
+- Make sure to check the `.gitignore` file to ensure your `.env` file is not tracked by version control.
+- You can customize the UI further by modifying the `home_screen.dart` file.
 
 ### Contributing
 Feel free to submit issues or pull requests if you would like to contribute to the project!
